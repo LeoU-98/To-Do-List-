@@ -1,69 +1,87 @@
-# React + TypeScript + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To-Do List is a frontend web application built with React, focused on task management through a clean, interactive, and user-friendly interface.  
+The project emphasizes usability, modern UI patterns, and smooth user interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Overview
 
-## Expanding the ESLint configuration
+This project was developed as part of a personal portfolio to demonstrate:
+- Building interactive React applications
+- Managing UI state and user interactions
+- Designing accessible and reusable UI components
+- Applying modern frontend patterns for productivity-focused applications
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The application is designed to be flexible and adaptable to different task and workflow scenarios.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Live Demo
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The application will be available at:  
+🔗 https://to-do-list-chi-tawny-48.vercel.app/
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Features
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Task creation, editing, and deletion
+- Component-based architecture
+- Responsive design across devices
+- Interactive dialogs, menus, and tooltips
+- Date selection and scheduling support
+- Animated UI transitions
+- Clean and modern interface
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Vite
+- TypeScript
+
+### Styling & UI
+- Tailwind CSS
+- Radix UI primitives
+- Animation utilities
+- Icon libraries
+
+### Utilities
+- Date handling utilities
+- Unique ID generation
+- Data visualization components
+
+### Tooling
+- ESLint
+- Prettier
+
+---
+
+## 📌 Usage
+
+- Create and manage tasks through an intuitive interface
+- Interact with dialogs, menus, and UI components
+- Organize tasks with dates and visual cues
+- Experience responsive layouts across different screen sizes
+
+---
+
+## 🧩 Challenges & Learnings
+
+- Designing accessible and composable UI components
+- Managing complex UI interactions and state
+- Balancing rich features with simplicity
+- Structuring a scalable and maintainable React project
+
+---
+
+## 🚧 Future Improvements
+
+- Add persistent storage
+- Introduce task categories and filtering
+- Improve accessibility and keyboard navigation
+- Optimize performance
+- Expand analytics and insights
