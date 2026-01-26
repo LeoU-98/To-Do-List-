@@ -1,7 +1,6 @@
-# To-Do List
+# Do Buddy
 
-To-Do List is a frontend web application built with React, focused on task management through a clean, interactive, and user-friendly interface.  
-The project emphasizes usability, modern UI patterns, and smooth user interactions.
+Do Buddy is a modern task manager designed to help you organize, track, and complete your daily tasks. It features real-time updates, smooth animations, and an intuitive user interface.
 
 ---
 
